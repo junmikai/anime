@@ -1,0 +1,266 @@
+@charset "utf-8";
+
+/* ========================================
+	フロートの解除
+========================================= */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+
+/* ========================================
+	全体設計
+========================================= */
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+/* ========================================
+    ラッパー
+========================================= */
+div#wrapper {
+    width:100%;
+    height:100%;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* ========================================
+    ヘッダー
+========================================= */
+header {
+line-height:100px;
+width:100%;
+height:100px;
+padding-top:10px;
+background-color:#f7fcfe;
+}
+
+header h1 {
+  float:left;
+  font-family:cursive;
+  font-size:100px;
+  transform: rotate(2deg);
+  font-weight: bold;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  color:red;
+  padding-left:20px;
+}
+
+nav {
+ 
+}
+
+nav ul li {
+  float:right;
+  padding-right:50px;
+}
+
+nav ul li a {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: none;
+  font-size:30px;
+  font-weight: bold;
+  color:black;
+}
+
+
+
+
+
+/* ========================================
+    メイン画像
+========================================= */
+div#mainimage {
+  width:100%;
+  height:700px;
+  display: flex;
+}
+
+
+
+
+
+
+
+
+/* ========================================
+    レフト
+========================================= */
+div#left {
+  width: 50%;
+  height: 100%;
+  z-index:100;
+}
+
+#left h2{
+font-size:50px;
+font-weight: bold;
+color:yellowgreen;
+text-shadow: 5px 5px 5px rgb(0, 0, 0,1);
+font-family:"monospace";
+padding-left:20px;
+
+}  
+
+
+
+
+
+/* ========================================
+    ライト
+========================================= */
+div#right {
+  width: 50%;
+  height: 100%;
+  z-index:100;
+}
+#heroins{
+  padding-top:30px;
+  padding-bottom:10px;
+  width:650px;
+  height:850px;
+}
+#heroin1{
+float:left;
+}
+
+#heroin2{
+float:right;
+}
+
+/* ========================================
+    ニュース
+========================================= */
+#news{
+  width:100%;
+  height:700px;
+  padding-top:30px;
+  font-family:arial black;
+}
+
+#news h2{
+  font-size:40px;
+  padding-top:20px;
+  padding-bottom:20px;
+  font-weight:bold;
+  text-align: center;
+}
+
+#newsbox{
+  height:330px;
+  width:1000px;
+  margin:0 auto;
+  display:flex;
+  flex-wrap:wrap;
+  padding-bottom:50px;
+}
+
+.boxparent{
+  margin:0 auto;
+  border:1px solid black;
+  width:300px;
+  height:150px; 
+  margin-bottom:60px;
+}
+
+#boxchild{
+  padding-top:5px;
+  color:#234759;
+}
+
+.box{
+  width:300px;
+  height:150px;
+}
+
+
+#news a{
+  text-align:center;
+  padding-left:1000px;
+  font-size:25px;
+  display: block;
+  text-decoration: none;
+  color:#2ca9e1;
+}
+
+
+
+
+/* ========================================
+    フッター
+========================================= */
+footer{
+  width: 100%;
+  height:450px;
+  text-align: center;
+  background-color:#77b3d1;
+  color:#fff;
+  font-family:"Yu Mincho", "ヒラギノ明朝 ProN W3", "HiraMinProN-W3", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  font-weight: bold;
+}
+
+footer h2{
+  padding-top:10px;
+  font-size:50px;
+  padding-bottom:40px;
+  font-weight:bold;
+  font-family:arial black ;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+#bottomtitle{
+  font-size:100px;
+  transform: rotate(2deg);
+  font-weight: bold;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+#icons{
+  font-size:80px;
+  padding-bottom:30px;
+}
+
+footer ul li {
+  display: inline;
+  padding-left:20px;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
+}
+
+.fa-twitter{
+color:#55acee;
+
+}
+
+.fa-facebook-square{
+  color:#315096;
+}
+
+.fa-line{
+color:#00c300;
+}
+
+#bottommenu a{
+  text-decoration: none;
+  color:#fff;
+  font-family:"Yu Mincho", "ヒラギノ明朝 ProN W3", "HiraMinProN-W3", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  font-weight: bold;
+  font-size:40px;
+}
+
+footer h3{
+padding-top:20px;
+padding-bottom:20px;
+font-size:20px;
+font-weight:bold;
+}
