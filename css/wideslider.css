@@ -58,6 +58,7 @@
     background: #fff;
     border: 1px solid #666;
     border-radius: 6px;
+    display: none;
 }
 .pagination a.active {
     filter:alpha(opacity=100)!important;

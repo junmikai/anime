@@ -1,4 +1,22 @@
 $(function(){
+  //ローディングエリアを取得
+  var loading = $("#loading");
+//ローディング中
+  $(".loading__img").animate({"marginTop":"30px"},{ duration: 500});
+  $(".loading__img").animate({"marginTop":"-30px"},{ duration: 500});
+  $(".loading__img").animate({"marginTop":"30px"},{ duration: 500});
+  $(".loading__img").animate({"marginTop":"-30px"},{ duration: 500});
+  $(".loading__img").animate({"marginTop":"30px"},{ duration: 500});
+  //ローディングエリアを隠す処理
+  var isHidden = function(){
+  loading.fadeOut(1000); //1000ミリ秒かけてフェードアウト
+  };
+  //1000ミリ秒後にloadingFunc開始
+  setTimeout(isHidden,2000);
+  });
+
+$(function(){
+  
 //    キャッチコピー自動移動
   $("#left").animate({"marginTop":"200px"},{ duration: 5000});
 
@@ -11,14 +29,14 @@ $(function(){
       });
       
 //    ヒロイン
-      $('#heroin1').mouseover(function() {
+      $('#heroin1').mouseenter(function() {
         $(this).animate({
         "marginTop":"-50px"},{ duration: 200});
         $(this).animate({
         "marginTop":""},{ duration: 200});
     });
 
-    $('#heroin2').mouseover(function() {
+    $('#heroin2').mouseenter(function() {
         $(this).animate({
         "marginTop":"-50px"},{ duration: 200});
         $(this).animate({
@@ -37,7 +55,7 @@ $(function(){
 
       
       //    フッター 
-      $('footer ul li a').mouseover(function(){
+      $('footer ul li a').mouseenter(function(){
         $(this).animate({
             'opacity':'0.1'},{ duration: 400});
             $(this).animate({
