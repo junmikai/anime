@@ -1,7 +1,6 @@
 $(function(){
 //    キャッチコピー自動移動
-	$("#left").animate({
-    "marginTop":"200px"},{ duration: 5000});
+  $("#left").animate({"marginTop":"200px"},{ duration: 5000});
 
 //    ヘッダー
     $('nav ul li a').hover(function() {
@@ -28,7 +27,7 @@ $(function(){
 
 
     //    NEWS
-    $(".box").mouseover(function() {
+    $(".box").mouseenter(function() {
         $(this).animate({zIndex:1},{
           duration:2000,
           step:function(now){
@@ -44,5 +43,17 @@ $(function(){
             $(this).animate({
             'opacity':'1'},{ duration: 400});
       });
+
+
+      //    キャラ紹介触った時
+      $('.charaparent').mouseenter(function() {
+        $(this).animate({
+        "marginTop":"-50px"},{ duration: 200});
+      });
+      $('.charaparent').mouseleave(function() {
+        $(this).animate({
+        "marginTop":""},{ duration: 200});
+      });
+
 });
 

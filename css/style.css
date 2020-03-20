@@ -47,13 +47,17 @@ background-color:#f7fcfe;
 
 header h1 {
   float:left;
+  transform: rotate(2deg);
+  padding-left:20px;
+}
+
+header h1 a{
   font-family:cursive;
   font-size:100px;
-  transform: rotate(2deg);
+  text-decoration:none ;
   font-weight: bold;
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
   color:red;
-  padding-left:20px;
 }
 
 nav {
@@ -103,13 +107,12 @@ div#left {
 }
 
 #left h2{
-font-size:50px;
+font-size:80px;
 font-weight: bold;
-color:yellowgreen;
-text-shadow: 5px 5px 5px rgb(0, 0, 0,1);
+color:#4169e1;
+text-shadow: 5px 5px 5px rgb(255, 255, 255,1);
 font-family:"monospace";
 padding-left:20px;
-
 }  
 
 
@@ -201,7 +204,7 @@ float:right;
 ========================================= */
 footer{
   width: 100%;
-  height:450px;
+  height:500px;
   text-align: center;
   background-color:#77b3d1;
   color:#fff;
@@ -211,11 +214,16 @@ footer{
 
 footer h2{
   padding-top:10px;
-  font-size:50px;
   padding-bottom:40px;
-  font-weight:bold;
   font-family:arial black ;
+  font-size:50px;
+}
+
+footer h2 a{
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  font-weight:bold;
+  color: #fff;
+  text-decoration:none ;
 }
 
 #bottomtitle{
@@ -259,8 +267,7 @@ color:#00c300;
 }
 
 footer h3{
-padding-top:20px;
-padding-bottom:20px;
-font-size:20px;
+padding-top:40px;
+font-size:25px;
 font-weight:bold;
 }
