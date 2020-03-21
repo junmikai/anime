@@ -1,0 +1,64 @@
+#about{
+  width:100%;
+  height:auto;
+  font-family: "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W3", "HiraMinProN-W3", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  font-feature-settings: "palt";
+  line-height: 2.5;
+}
+
+#catch{
+ margin:0 auto ;
+  width:900px;
+  height:300px;
+  font-size:70px;
+  text-shadow: rgb(88, 88, 88) 2px 2px 5px;
+  font-style:italic;
+  font-weight: bold;
+}
+
+#aboutbox{
+  width:1200px;
+  margin:100px auto;
+  text-align: center;
+  font-size: 32px;
+}
+
+#story{
+  margin:auto;
+  width:1200px;
+}
+
+#storytop{
+  font-size:72px;
+  text-shadow: rgb(88, 88, 88) 2px 2px 5px;
+  border-bottom:4px solid black;
+  width:50%;
+}
+
+#storybox{
+  height:auto; 
+  margin:100px auto;
+}
+
+#storybox h2{
+font-size:30px;
+text-shadow: rgb(241, 191, 196) 2px 2px 5px;
+font-family: Meiryo, メイリオ, Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic", Osaka, sans-serif;
+color: rgb(211, 29, 29);
+line-height: 3.8;
+}
+
+
+#storyimage{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+#storyimage img{
+  margin:0 auto;
+  border: 1px solid #000;
+}
+
+#storybox{
+  font-size:20px;
+}
