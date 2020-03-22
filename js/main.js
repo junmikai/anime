@@ -73,5 +73,17 @@ $(function(){
         "marginTop":""},{ duration: 200});
       });
 
+      //    ストーリーTOP
+      $("#catch").css({opacity:'0'});
+	    setTimeout(function(){
+		  $("#catch").animate({opacity:'1'},2000);
+      },3000);
+      
+      //    ストーリー詳細
+      $("#aboutbox").css({opacity:'0'});
+	    setTimeout(function(){
+      $("#aboutbox").animate({opacity:'1',"marginTop":"150px"},2000);
+      },3000);
+      
 });
 
