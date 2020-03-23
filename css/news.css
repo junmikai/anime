@@ -41,7 +41,11 @@ padding-top:30px;
   padding-bottom:10px;
 }
 
-#topix{
+.hidenews{
+  display:none;
+}
+
+.topix{
   font-size:30px;
   padding-bottom:10px; 
 }

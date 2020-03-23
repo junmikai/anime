@@ -85,6 +85,7 @@ $(function(){
       $("#aboutbox").animate({opacity:'1',"marginTop":"150px"},2000);
       },3000);
 
+
       //    玉
       var amountScrolled = 500;
       $(window).scroll(function() {
@@ -94,7 +95,6 @@ $(function(){
             $('a.sf-back-to-top').fadeOut('slow');
         }
       });
-      
       $('a.sf-back-to-top').click(function() {
         $('html, body').animate({
             scrollTop: 0
@@ -102,6 +102,12 @@ $(function(){
         return false;
       });
      
+ //    ニュース
+
+ $(".topix").click(function(){
+  $(this).children().slideToggle(300);
+});
+
 });
 
 
