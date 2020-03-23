@@ -304,3 +304,33 @@ top: 50%;
 left: 50%;
 transform: translate(-50%,-50%);
 }
+
+
+
+/* ========================================
+    玉
+========================================= */
+
+
+.sf-back-to-top {
+  background:url(/Users/mikaijun/Desktop/anime/img/広告1.png) no-repeat center bottom;
+  background-color:#e9546b;
+  background-size:contain;
+  color: #000;
+  display: none;
+  z-index: 999;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 25%;
+}
+a.sf-back-to-top {
+  letter-spacing: 2px;
+  font-size: 25px;
+  text-align: center;
+  line-height:35px;
+  text-decoration: none;
+
+}
