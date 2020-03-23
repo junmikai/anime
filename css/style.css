@@ -157,6 +157,8 @@ float:right;
   padding-bottom:20px;
   font-weight:bold;
   text-align: center;
+  display:block;
+  width: 100%;
 }
 
 #newsbox{
@@ -175,14 +177,15 @@ float:right;
   height:150px; 
   margin-bottom:60px;
   position: relative;
+  cursor:pointer;
 }
 
-.boxparent a{
-  position: absolute;
-    top: 0;
-    left: 0;
-    text-indent:-999px;
-    z-index: 2;
+.boxparent .link a{
+position: absolute;
+top: 0;
+left: 0;
+text-indent:-999px;
+z-index: 2;
 }
 
 #boxchild{

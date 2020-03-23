@@ -13,10 +13,13 @@ padding-top:30px;
 }
 
 #newstitle h2{
-  
   text-align: center;
   font-size:100px;
   text-shadow: rgb(250, 125, 137) 2px 2px 5px;
+}
+#newstitle h3{
+  text-align: center;
+  font-size:20px;
 }
 
 #newslists{
@@ -48,6 +51,11 @@ padding-top:30px;
 .topix{
   font-size:30px;
   padding-bottom:10px; 
+}
+
+.topix{
+  background-color:rgba(255, 0, 191, 0.1);
+  box-shadow: 4px 4px 4px;
 }
 
 #newsmain{

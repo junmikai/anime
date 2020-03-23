@@ -53,6 +53,11 @@ $(function(){
         }})
       });
 
+//    NEWS クリック時
+      $(".boxparent").click(function() {
+      window.location.href = '/Users/mikaijun/Desktop/anime/news.html';
+      });
+
       
       //    フッター 
       $('footer ul li a').mouseenter(function(){
@@ -107,6 +112,7 @@ $(function(){
  $(".topix").click(function(){
   $(this).children().slideToggle(300);
 });
+
 
 });
 
