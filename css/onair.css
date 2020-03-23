@@ -1,0 +1,58 @@
+.channel_list{
+width:100%;
+height:auto;
+margin:0 auto;
+font-family: "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W3", "HiraMinProN-W3", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+padding-top:100px;
+}
+
+.channel_list h2{
+  text-align: center;
+  font-size:100px;
+  margin-bottom:100px;
+  text-shadow: rgb(250, 125, 137) 2px 2px 5px;
+}
+
+.list_table{
+width:1000px;
+height:500px;
+margin:0 auto;
+}
+
+.list_table ul li{
+  float:left;
+}
+
+.top_head{
+  display: flex;
+  font-size:50px;
+  height:75px;
+  background-color:palevioletred;
+  box-shadow: 2px 2px 4px;
+  line-height:75px;
+  margin-bottom:20px;
+}
+
+.top_head li p{
+  line-height:40px;
+}
+
+
+.list_head{
+  display: flex;
+  font-size:20px;
+  padding:20px 0;
+  border-bottom:1px solid #333;
+}
+
+.channel{
+  width:33%;
+}
+
+.date{
+  width:33%;
+}
+
+.time{
+  width:34%;
+}

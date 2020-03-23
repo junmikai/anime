@@ -29,8 +29,8 @@
 }
 
 #storytop{
-  font-size:72px;
-  text-shadow: rgb(88, 88, 88) 2px 2px 5px;
+  font-size:100px;
+  text-shadow: rgb(250, 125, 137) 2px 2px 5px;
   border-bottom:4px solid black;
   width:50%;
 }
@@ -62,3 +62,4 @@ line-height: 3.8;
 #storybox{
   font-size:20px;
 }
+

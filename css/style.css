@@ -170,6 +170,15 @@ float:right;
   width:300px;
   height:150px; 
   margin-bottom:60px;
+  position: relative;
+}
+
+.boxparent a{
+  position: absolute;
+    top: 0;
+    left: 0;
+    text-indent:-999px;
+    z-index: 2;
 }
 
 #boxchild{

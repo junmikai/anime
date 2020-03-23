@@ -1,0 +1,55 @@
+#newsall{
+  height:auto;
+  font-family: "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W3", "HiraMinProN-W3", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  line-height: 1.5;
+}
+
+
+#newstitle{
+height:130px;
+width:1000px;
+margin:0 auto;
+padding-top:30px;
+}
+
+#newstitle h2{
+  
+  text-align: center;
+  font-size:100px;
+  text-shadow: rgb(250, 125, 137) 2px 2px 5px;
+}
+
+#newslists{
+  height:auto;
+  width:1000px;
+  margin:50px auto;
+}
+
+#newslist{
+  height:auto;
+  margin-top:100px;
+  padding-bottom:30px;
+  border-bottom:1px dashed gray;
+}
+#newslist img{
+  border:1px solid #333;
+  margin:10px 0;
+}
+
+#data{
+  font-size:20px;
+  padding-bottom:10px;
+}
+
+#topix{
+  font-size:30px;
+  padding-bottom:10px; 
+}
+
+#newsmain{
+  font-size:20px;
+}
+
+#newsmain a{
+  color:skyblue;
+}
