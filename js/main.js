@@ -18,15 +18,26 @@ $(function(){
 $(function(){
   
 //    キャッチコピー自動移動
-  $("#left").animate({"marginTop":"200px"},{ duration: 5000});
+
+setTimeout(function(){
+$("#left h2").fadeIn(800)
+},4000);
+
+
+
+
+
 
 //    ヘッダー
-    $('nav ul li a').hover(function() {
-        $(this).css('color', '#c00');
-    },
-    function() {
-        $(this).css('color', '');
-      });
+$('nav ul li a').hover(function() {
+  $(this).css('color', '#c00'),
+  $(this).next('nav ul li img').animate({opacity:'1'},500)
+},
+function() {
+  $(this).css('color', ''),
+  $(this).next('nav ul li img').animate({opacity:'0'},500);
+});
+        
       
 //    ヒロイン
       $('#heroin1').mouseenter(function() {
@@ -112,8 +123,6 @@ $(function(){
  $(".topix").click(function(){
   $(this).children().slideToggle(300);
 });
-
-
 });
 
 

@@ -4,8 +4,7 @@ $(function(){
     baseWidth = 960;
     baseHeight = 450;
     minWidth = 320;
- 
-    slideSpeed = 700;
+    slideSpeed = 400;
     delayTime = 5000;
     easing = 'swing';
     autoPlay = '1'; // notAutoPlay = '0'

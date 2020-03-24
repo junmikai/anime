@@ -7,14 +7,19 @@
 }
 
 #catch{
- margin:0 auto ;
-  width:900px;
-  height:300px;
-  font-size:70px;
-  text-shadow: rgb(88, 88, 88) 2px 2px 5px;
-  font-style:italic;
-  font-weight: bold;
+margin:0 auto ;
+height:300px;
+font-size:70px;
+text-shadow: rgb(88, 88, 88) 2px 2px 5px;
+font-style:italic;
+font-weight: bold;
+text-align: center;
 }
+
+#catch p{
+  
+}
+  
 
 #aboutbox{
   width:1200px;
