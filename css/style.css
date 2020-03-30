@@ -67,7 +67,6 @@ header h1 a{
 .headermenu{
   width:auto;
   height:auto;
-
 }
 nav ul{
   height:100px;
@@ -356,3 +355,22 @@ a.sf-back-to-top {
   text-decoration: none;
 
 }
+
+
+
+
+/* ========================================
+    レスポンシブデザイン
+========================================= */
+
+@media (max-width: 1550px){ 
+#catch{
+display:none;
+}
+}
+
+@media (max-width: 1200px){ 
+  header nav{
+  display:none;
+  }
+  }

@@ -30,8 +30,8 @@ $("#left h2").fadeIn(800)
 
 //    ヘッダー
 $('nav ul li a').hover(function() {
-  $(this).css('color', '#c00'),
-  $(this).next('nav ul li img').animate({opacity:'1'},500)
+  
+  $(this).next().animate({opacity:'1'},500)
 },
 function() {
   $(this).css('color', ''),
