@@ -334,7 +334,6 @@ transform: translate(-50%,-50%);
 
 
 .sf-back-to-top {
-  background:url(/Users/mikaijun/Desktop/anime/img/広告1.png) no-repeat center bottom;
   background-color:#e9546b;
   background-size:contain;
   color: #000;
@@ -351,7 +350,7 @@ a.sf-back-to-top {
   letter-spacing: 2px;
   font-size: 25px;
   text-align: center;
-  line-height:35px;
+  line-height:100px;
   text-decoration: none;
 
 }
